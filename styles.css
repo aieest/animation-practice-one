@@ -17,3 +17,12 @@ div {
     width: 100%;
     position: relative;
 }
+
+div.dots-inactive {
+    background: radial-gradient(
+        white 2px, 
+        transparent 2px
+    ) 0 0 / 25px 25px;
+
+    border-radius: 50%;
+}
