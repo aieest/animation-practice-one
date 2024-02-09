@@ -22,3 +22,8 @@ function changeDivClass() {
         div.classList.add("dots-inactive")
     }
 }
+
+function changeBackground() {
+    changeButtonClass();
+    changeDivClass();
+}
