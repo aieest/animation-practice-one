@@ -1,5 +1,6 @@
+const button = document.querySelector('#button');
+
 function changeButtonClass() {
-    const button = document.querySelector('#button');
     const activateButton = document.querySelector('.activate');
     const returnButton = document.querySelector('.return');
 
