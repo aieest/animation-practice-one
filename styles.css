@@ -1,6 +1,3 @@
-* {
-    border: 1px solid white;
-}
 
 body {
     background: darkslategrey;
@@ -28,7 +25,7 @@ div.dots-inactive {
     ) 0 0 / 24px 24px;
 }
 
-.activate {
+button.activate {
     background: linear-gradient(darkslategrey 100%, white);
     color: white;
     border: 1px solid white;
@@ -41,12 +38,16 @@ div.dots-inactive {
     transition: all 0.3s ease-in-out;
 }
 
-.activate:hover {
+button.activate:hover {
     background: linear-gradient(darkslategrey 0%, white 0%);
     color: darkslategrey;
 }
 
-.return {
+
+/***** Active state styles *****/
+
+
+button.return {
     background: linear-gradient(darkslategrey 0%, white 0%);
     color: darkslategrey;
     border: 1px solid white;
@@ -59,7 +60,7 @@ div.dots-inactive {
     transition: all 0.3s ease-in-out;
 }
 
-.return:hover {
+button.return:hover {
     background: linear-gradient(darkslategrey 100%, white);
     color: white;
 }
