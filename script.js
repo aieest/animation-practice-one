@@ -7,5 +7,9 @@ function changeButtonClass() {
         button.classList.remove("activate");
         button.classList.add("return");
         button.textContent = "Return!";
+    } else if (button.classList.contains("return")) {
+        button.classList.remove("return");
+        button.classList.add("activate");
+        button.textContent = "CLick Me!";
     }
 }
