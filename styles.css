@@ -50,7 +50,7 @@ button.activate:hover {
 button.return {
     background: linear-gradient(darkslategrey 0%, white 0%);
     color: darkslategrey;
-    border: 1px solid white;
+    border: 1px solid darkslategray;
     padding: 10px 20px;
     text-align: center;
     display: inline-block;
@@ -63,4 +63,11 @@ button.return {
 button.return:hover {
     background: linear-gradient(darkslategrey 100%, white);
     color: white;
+}
+
+div.dots-active {
+    background: radial-gradient(
+        white 20px, 
+        transparent 1px
+    ) 0 0 / 24px 24px;
 }
