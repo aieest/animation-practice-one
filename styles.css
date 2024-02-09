@@ -45,3 +45,21 @@ div.dots-inactive {
     background: linear-gradient(darkslategrey 0%, white 0%);
     color: darkslategrey;
 }
+
+.return {
+    background: linear-gradient(darkslategrey 0%, white 0%);
+    color: darkslategrey;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.return:hover {
+    background: linear-gradient(darkslategrey 100%, white);
+    color: white;
+}
