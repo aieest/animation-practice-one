@@ -1,5 +1,5 @@
 const button = document.querySelector('#button');
-const div = document.querySelector('')
+const div = document.querySelector('#main-div')
 
 function changeButtonClass() {
     if (button.classList.contains("activate")) {
@@ -21,9 +21,4 @@ function changeDivClass() {
         div.classList.remove("dots-active")
         div.classList.add("dots-inactive")
     }
-}
-
-function changeBackground() {
-    changeButtonClass()
-    changeDivClass()
 }
