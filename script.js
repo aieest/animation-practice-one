@@ -10,6 +10,6 @@ function changeButtonClass() {
     } else if (button.classList.contains("return")) {
         button.classList.remove("return");
         button.classList.add("activate");
-        button.textContent = "CLick Me!";
+        button.textContent = "Click Me!";
     }
 }
