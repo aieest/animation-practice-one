@@ -1,5 +1,6 @@
 const button = document.querySelector('#button');
-const div = document.querySelector('#main-div')
+const spanInactive = document.querySelector('dots-inactive')
+const spanActive = document.querySelector('dots-active')
 
 function changeClass() {
     if (button.classList.contains("activate")) {
