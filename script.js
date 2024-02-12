@@ -6,13 +6,13 @@ function changeClass() {
         button.classList.remove("activate");
         button.classList.add("return");
         button.textContent = "Return!";
-        div.classList.remove("dots-inactive")
-        div.classList.add("dots-active")
+        span.classList.remove("dots-inactive")
+        span.classList.add("dots-active")
     } else if (button.classList.contains("return")) {
         button.classList.remove("return");
         button.classList.add("activate");
         button.textContent = "Click Me!";
-        div.classList.remove("dots-active")
-        div.classList.add("dots-inactive")
+        span.classList.remove("dots-active")
+        span.classList.add("dots-inactive")
     }
 }
