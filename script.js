@@ -1,5 +1,5 @@
 const button = document.querySelector('#button');
-const span = document.querySelectorAll('.span');
+const spans = document.querySelectorAll('.span');
 const spanDiv = document.querySelector('.span-div');
 const numberOfSpans = Math.floor((window.screen.width * window.screen.height) / 5250);
 

@@ -29,10 +29,11 @@ div.span-div {
     bottom: 0;
     margin: auto;
     height: inherit;
-    width: 100%;
+    max-width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     z-index: 0;
 }
 
@@ -87,7 +88,9 @@ button.return:hover {
 }
 
 span.dots-active {
+    background: white;
     margin: 0;
-    height: 100px;
-    width: 100px;
+    height: 1px;
+    width: 1px;
+    box-shadow: 0 0 0 50px white;
 }
