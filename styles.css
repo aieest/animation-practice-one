@@ -94,5 +94,17 @@ span.dots-active {
     height: 10px;
     width: 10px;
     box-shadow: 0 0 0 80px white;
+    animation: dot-expand 1s;
 }
 
+@keyframes dot-expand {
+    0% {
+        box-shadow: 0 0 0 0 white;
+        border-radius: 100%;
+    }
+
+    100% {
+        box-shadow: 0 0 0 80px white;
+        border-radius: 0;
+    }
+}
