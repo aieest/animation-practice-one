@@ -30,10 +30,11 @@ div.span-div {
     margin: auto;
     height: inherit;
     max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: stretch;
+    justify-content: stretch;
+    grid-gap: 0;
     z-index: 0;
 }
 
@@ -89,8 +90,9 @@ button.return:hover {
 
 span.dots-active {
     background: white;
-    margin: 0;
-    height: 1px;
-    width: 1px;
-    box-shadow: 0 0 0 50px white;
+    margin: auto;
+    height: 10px;
+    width: 10px;
+    box-shadow: 0 0 0 80px white;
 }
+
