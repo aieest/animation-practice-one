@@ -1,10 +1,10 @@
 const button = document.querySelector('#button');
-const spans = document.querySelectorAll('.span');
 const spanDiv = document.querySelector('.span-div');
 const numberOfSpans = Math.floor((window.screen.width * window.screen.height) / 5250);
 
 
 function changeClass() {
+    const spans = document.querySelectorAll('.span');
     if (button.classList.contains("activate")) {
         button.classList.remove("activate");
         button.classList.add("return");
