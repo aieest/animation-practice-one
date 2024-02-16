@@ -9,14 +9,18 @@ function changeClass() {
         button.classList.remove("activate");
         button.classList.add("return");
         button.textContent = "Return!";
-        span.classList.remove("dots-inactive")
-        span.classList.add("dots-active")
+        spans.forEach(span => {
+            span.classList.remove("dots-inactive")
+            span.classList.add("dots-active")
+        })
     } else if (button.classList.contains("return")) {
         button.classList.remove("return");
         button.classList.add("activate");
         button.textContent = "Click Me!";
-        span.classList.remove("dots-active")
-        span.classList.add("dots-inactive")
+        spans.forEach(span => {
+            span.classList.remove("dots-active")
+            span.classList.add("dots-inactive")
+        })
     }
 }
 
