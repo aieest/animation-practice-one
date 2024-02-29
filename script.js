@@ -11,6 +11,7 @@ function changeClass() {
         button.textContent = "Return!";
         spans.forEach(span => {
             span.classList.remove("dots-inactive")
+            span.classList.remove("dots-start")
             span.classList.add("dots-active")
         })
     } else if (button.classList.contains("return")) {
