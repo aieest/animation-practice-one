@@ -115,6 +115,9 @@ span.dots-active {
         box-shadow: 0 0 0 80px white;
         border-radius: 0;
     }
+    75% {
+        border-radius: 100%;
+    }
 
     100% {
         box-shadow: 0 0 0 0 white;
