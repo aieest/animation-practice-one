@@ -26,6 +26,6 @@ function changeClass() {
 
 for (let i = 1; i <= numberOfSpans; i++) {
     const newSpan = document.createElement('span');
-    newSpan.classList.add('span', 'dots-inactive');
+    newSpan.classList.add('span', 'dots-start');
     spanDiv.appendChild(newSpan);
 }
