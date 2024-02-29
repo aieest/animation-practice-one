@@ -35,6 +35,7 @@ div.span-div {
 }
 
 span.dots-inactive, span.dots-start {
+    border: 1px solid white;
     margin: auto;
     height: 1px;
     width: 1px;
