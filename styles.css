@@ -89,7 +89,7 @@ button.return:hover {
     color: white;
 }
 
-span.dots-active {
+span.dots-active, span.dot-start {
     background: white;
     margin: auto;
     height: 10px;
