@@ -95,6 +95,9 @@ span.dots-active, span.dot-start {
     height: 10px;
     width: 10px;
     box-shadow: 0 0 0 80px white;
+}
+
+span.dots-active {
     animation: dot-expand 0.5s ease-in;
 }
 
