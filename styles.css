@@ -108,3 +108,15 @@ span.dots-active {
         border-radius: 0;
     }
 }
+
+@keyframes dot-shrink {
+    0% {
+        box-shadow: 0 0 0 80px white;
+        border-radius: 0;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 white;
+        border-radius: 100%;
+    }
+}
